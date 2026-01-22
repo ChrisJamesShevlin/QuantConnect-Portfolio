@@ -6,8 +6,8 @@ class RegimeRiskBudgetAllocator(QCAlgorithm):
 
     def Initialize(self):
         # Backtest window
-        self.SetStartDate(2016, 1, 1)
-        self.SetEndDate(2026, 1, 1)
+        self.SetStartDate(2008, 1, 1)
+        self.SetEndDate(2009, 1, 1)
         self.SetCash(5000)
 
         # -----------------------------
